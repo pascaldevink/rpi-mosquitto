@@ -13,7 +13,7 @@ push:
 
 test:
 	docker run --rm $(DOCKER_IMAGE_TAGNAME) /bin/echo "Success."
-	
+
 rmi:
 	docker rmi -f $(DOCKER_IMAGE_TAGNAME)
 
